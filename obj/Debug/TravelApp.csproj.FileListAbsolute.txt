@@ -1,0 +1,16 @@
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\bin\Debug\TravelApp.exe.config
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\bin\Debug\TravelApp.exe
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\bin\Debug\TravelApp.pdb
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\bin\Debug\Newtonsoft.Json.dll
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\bin\Debug\Newtonsoft.Json.xml
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\TravelApp.csprojResolveAssemblyReference.cache
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\MainWindow.g.cs
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\App.g.cs
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\TravelApp_MarkupCompile.cache
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\TravelApp_MarkupCompile.lref
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\MainWindow.baml
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\TravelApp.g.resources
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\TravelApp.Properties.Resources.resources
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\TravelApp.csproj.GenerateResource.Cache
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\TravelApp.exe
+c:\users\devin\documents\visual studio 2017\Projects\TravelApp\TravelApp\obj\Debug\TravelApp.pdb

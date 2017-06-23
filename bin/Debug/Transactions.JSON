@@ -1,0 +1,107 @@
+{
+  "$type": "System.Collections.Generic.List`1[[TravelApp.DOMAIN.Transaction, TravelApp]], mscorlib",
+  "$values": [
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 2.0,
+      "Currency": "dollars",
+      "Date": "12/1/02"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 3.0,
+      "Currency": "dollars",
+      "Date": "12/1/02"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 2.0,
+      "Currency": "dollars",
+      "Date": "12/1/02"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 3.0,
+      "Currency": "dollars",
+      "Date": "12/1/02"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 2.0,
+      "Currency": "dollars",
+      "Date": "12/1/02"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 3.0,
+      "Currency": "dollars",
+      "Date": "12/1/02"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Purchase, TravelApp",
+      "Cost": 4.32,
+      "Category": "food",
+      "Description": "celery",
+      "Currency": "dollars",
+      "City": "kiev",
+      "Country": "ukraine",
+      "Date": "3/4/17"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Purchase, TravelApp",
+      "Cost": 3.0,
+      "Category": "food",
+      "Description": "chocolates",
+      "Currency": "rubles",
+      "City": "moscow",
+      "Country": "russia",
+      "Date": "2017"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Purchase, TravelApp",
+      "Cost": 3.0,
+      "Category": "food",
+      "Description": "chocolates",
+      "Currency": "hryvnias",
+      "City": "kiev",
+      "Country": "ukraine",
+      "Date": "2017"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Purchase, TravelApp",
+      "Cost": 0.5,
+      "Category": "food",
+      "Description": "chocolates",
+      "Currency": "hryvnias",
+      "City": "kiev",
+      "Country": "ukraine",
+      "Date": "2017"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 500.0,
+      "Currency": "hryvnias",
+      "Date": "3/4/2017"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 50.0,
+      "Currency": "rubles",
+      "Date": "2017"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Exchange, TravelApp",
+      "InAmt": 25.0,
+      "InCurr": "rubles",
+      "OutAmt": 500.0,
+      "OutCurr": "hryvnias",
+      "Date": "2017"
+    },
+    {
+      "$type": "TravelApp.DOMAIN.Deposit, TravelApp",
+      "Amt": 5.0,
+      "Currency": "dollars",
+      "Date": "06/13/2017 "
+    }
+  ]
+}
