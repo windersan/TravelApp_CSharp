@@ -18,11 +18,7 @@ namespace TravelApp.SERVICE
         public void GenerateJSON(Account a){
             Console.WriteLine("ACCOUNT: " + a);
             string jsonOutput = JsonConvert.SerializeObject(a);
-            ///,Newtonsoft.Json.Formatting.Indented, new JsonSerializerSettings
-            /// {
-            ///    TypeNameHandling = TypeNameHandling.All
-            ///  });
-              
+
             Console.WriteLine("JSON: " + jsonOutput);
             File.WriteAllText("Account.JSON", jsonOutput);
             
