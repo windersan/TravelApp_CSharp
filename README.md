@@ -1,4 +1,4 @@
-# TravelApp_WPF
+# TravelApp_Windows
 
 
 NTier Architecture
