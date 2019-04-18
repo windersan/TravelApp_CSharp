@@ -4,63 +4,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
-
-using TravelApp.DOMAIN;
 using System.Collections.Specialized;
+using TravelApp.DOMAIN;
 
 namespace TravelApp.SERVICE
 {
     class Factory
     {
-        
-        
-
-        
-
         private Factory() { }
         private static Factory factory = new Factory();
         public static Factory GetInstance() { return factory; }
 
-
-       
-
-        public IService GetService(string name){
-           
-            Object obj = null;
+        public IService GetService(string name){   
+           Object obj = null;
             
            try
             {
-               Type type = Type.GetType(GetImplName(name));
-          
-                obj = Activator.CreateInstance(type);
-
-                
+               Type type = Type.GetType(GetImplName(name)); 
+                obj = Activator.CreateInstance(type);        
             }
             catch (Exception e)
             {
-               Console.WriteLine("Exception occured: {0}", e);
-                
+               Console.WriteLine("Exception occured: {0}", e);        
                 throw e;
-            }
-
-
-
-            
+            }   
             return (IService)obj;
-
         }
+        
         public string GetImplName(string servicename){
-            NameValueCollection settings = ConfigurationSettings.AppSettings;
-           
+            NameValueCollection settings = ConfigurationSettings.AppSettings;         
             return settings.Get(servicename);
-
         }
-
-
-
-
-
-
 
         public ITransactionSvc GetTransactionSvc(){
             return new TransactionSvcJSONImpl();
@@ -69,6 +43,5 @@ namespace TravelApp.SERVICE
         public IAccountSvc GetAccountSvc() {
             return new AccountSvcJSONImpl();
         }
-
     }
 }
